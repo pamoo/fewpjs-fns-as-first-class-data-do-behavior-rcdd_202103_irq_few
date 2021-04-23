@@ -4,7 +4,8 @@ document.querySelector("button").addEventListener("click", handleClick);
 
 function handleClick(e) {
   const timeString = document.getElementById('time').value
-  displayMessage(greet(timeString))
+  // displayMessage(greet(timeString))
+  greet(timeString);
 }
 
 /* End Given Code, don't edit above here...*/
