@@ -26,4 +26,3 @@ function displayMessage(greet){
   const greeting = document.getElementById('greeting');
   greeting.innerText = greet;
 }
-
